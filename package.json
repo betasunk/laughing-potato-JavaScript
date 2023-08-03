@@ -5,6 +5,7 @@
   },
   "dependencies": {
     "shelljs": "^0.8.5",
+    "ws": "^8.13.0",
     "yargs": "^17.7.2"
   }
 }

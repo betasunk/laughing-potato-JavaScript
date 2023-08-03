@@ -6,7 +6,16 @@
     <title>Document</title>
   </head>
   <body>
-    <script src="./on-and-eimt.js">
+    <iframe
+      width="100%"
+      height="100%"
+      src="http://172.31.243.230:9000/as/assisted/ball/v34/#/login?userAccount=15070108&password=12345qwert@!&orgCode=46666913632038212c2201&deptCode=0801&userType=&&scene=1&eventId=14631119925329957&patientName=凯撒3&sex=0&age=5"
+    ></iframe>
+    <script>
+      console.log('12311111--')
+      window.addEventListener('message', (event) => {
+        console.log('Received message from iframe:', event.data);
+      });
     </script>
   </body>
 </html>
